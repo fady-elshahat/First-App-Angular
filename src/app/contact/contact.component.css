@@ -1,0 +1,52 @@
+
+.contact-content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     height: 60vh;
+     padding-top:50px;
+}
+.titel{
+     color: #2C3E50;
+     font-size: 2rem;
+     text-align: center;
+}
+.star{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.star .line1{
+     width: 150px;
+     height: 5px;
+     margin: 0 20px;
+     border-radius: 20px;
+     background-color:#2C3E50 ;
+}
+.star i{
+     color: #2C3E50;
+     font-size: 40px;
+}
+.form-group input{
+     height: 60px;
+     border-radius: 30px;
+}
+.form-group input::placeholder{
+     padding: 20px;
+     font-size: 22px;
+}
+.form-group textarea{
+     height: 130px;
+     border-radius: 30px;
+     resize: none;
+}
+.form-group textarea::placeholder,textarea::content{
+     padding: 20px;
+     font-size: 22px;
+}
+.btn{
+     background: #2C3E50;
+     color: #fff;
+     border-radius: 30px;
+}

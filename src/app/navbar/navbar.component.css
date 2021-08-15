@@ -1,0 +1,29 @@
+nav{
+     background-color: #2C3E50;
+     color: #fff;
+     font-weight: bold;
+     line-height: 1.7;
+     z-index: 99;
+}
+nav .navbar-toggler{
+     background-color: #1ABC9C;
+}
+nav button i{
+     font-size: 35px;
+     color: #fff;
+}
+nav .navbar-brand{
+     color: #fff;
+     font-size: 2em;
+     white-space: nowrap;
+     letter-spacing: 2px;
+     line-height: 1.7;
+}
+nav .navbar-nav a{
+     color: #fff;
+     font-size: 1.25em;
+}
+nav .navbar-nav a:hover{
+     background-color: #1ABC9C;
+     border-radius: 10px;
+}

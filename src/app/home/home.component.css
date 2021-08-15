@@ -1,0 +1,35 @@
+.home{
+     background-color: #1ABC9C;
+}
+.home-content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     flex-direction: column;
+}
+.home-content .titel{
+     color: #fff;
+     font-size: 3rem;
+     text-align: center;
+}
+.star{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.star .line1{
+     width: 150px;
+     height: 5px;
+     margin: 0 20px;
+     border-radius: 20px;
+     background-color:#fff ;
+}
+.star i{
+     color: #fff;
+     font-size: 40px;
+}
+.des{
+     color: #fff;
+     font-size: 28px;
+}

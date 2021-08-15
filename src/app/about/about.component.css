@@ -1,0 +1,40 @@
+.about{
+     background-color: #1ABC9C;
+     height: 130vh;
+
+}
+.about-content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     height: auto;
+     padding-top:100px;
+     background-color: #1ABC9C;
+}
+.about-content .titel{
+     padding-top: 40px;
+     color: #fff;
+     font-size: 2rem;
+     text-align: center;
+}
+.star{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.star .line1{
+     width: 150px;
+     height: 5px;
+     margin: 0 20px;
+     border-radius: 20px;
+     background-color:#fff ;
+}
+.star i{
+     color: #fff;
+     font-size: 40px;
+}
+.des{
+     color: #fff;
+     font-size: 23px;
+}
